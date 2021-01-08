@@ -1,0 +1,12 @@
+name: HPLC_shiny
+title: HPLC_shiny
+username:
+account: zhaoqingsong
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3441780
+bundleId: 4056159
+url: https://zhaoqingsong.shinyapps.io/HPLC_shiny/
+when: 1609760851.90255
+asMultiple: FALSE
+asStatic: FALSE
