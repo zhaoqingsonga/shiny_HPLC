@@ -12,7 +12,7 @@ get_data_from_hplc<-function(filename=NULL){
   mydata<-lapply(1:length(myfilenames), function(x){
     file.name<-myfilenames[x]
 
-  mydata<-pdf_text(file.name) %>%   readr::read_lines()
+  mydata<-readr::read_lines(pdf_text(file.name))
   mydata<-str_trim(mydata)
   mydata<-hplc<-str_squish(mydata)
   #mydata<-read.table(file.name,sep = "\t",fileEncoding = "UTF-8")

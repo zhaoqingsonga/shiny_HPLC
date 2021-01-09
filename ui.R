@@ -1,9 +1,7 @@
 library(shiny)
 library(shinydashboard)
-
+library(pdftools)
 library(tidyverse)
-
-
 dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
